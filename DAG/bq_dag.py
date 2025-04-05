@@ -78,5 +78,7 @@ with DAG(
         },
     )
 
+print('DONE')
+
 # Define dependencies
 bronze_tables >> silver_tables >> gold_tables
